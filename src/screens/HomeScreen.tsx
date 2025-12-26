@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   StatusBar,
 } from 'react-native';
-// Vamos instalar esse pacote de ícones depois
+
 // import Feather from 'react-native-vector-icons/Feather';
 
 // Tipagem do TypeScript para a prop 'navigation'
@@ -29,14 +29,20 @@ export default function HomeScreen({ navigation }: { navigation: any }) {
 
       <View style={styles.body}>
         <Text style={styles.title}>O que vamos comer hoje? 😉</Text>
-        <TouchableOpacity style={styles.searchButton}>
-          {/* Por enquanto, vamos usar um emoji de lupa */}
-          <Text style={{fontSize: 24}}>🔍</Text>
-        </TouchableOpacity>
+        <TouchableOpacity 
+          style={styles.searchButton}
+          onPress={() => navigation.navigate('RecipeList', { focusSearch: true } as any)} // <-- AGORA ESTÁ DENTRO DA TAG
+        >
+          {/* emoji de lupa */}
+          <Text style={{fontSize: 24}}>🔍</Text>
+        </TouchableOpacity>
         <Text style={styles.subtitle}>Poucos ingredientes?</Text>
-        <TouchableOpacity style={styles.secondaryButton}>
-          <Text style={styles.secondaryButtonText}>Sim? clique aqui</Text>
-        </TouchableOpacity>
+        <TouchableOpacity 
+          style={styles.secondaryButton} 
+          onPress={() => navigation.navigate('RecipeList')}
+        >
+          <Text style={styles.secondaryButtonText}>Sim? clique aqui</Text>
+        </TouchableOpacity>
       </View>
 
       <View style={styles.footer}>

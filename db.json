@@ -1,0 +1,466 @@
+{
+  "users": [
+    {
+      "id": "ac5a",
+      "name": "Vini",
+      "email": "vinicius.teste@gmail.com",
+      "password": "hotdog234"
+    },
+    {
+      "id": "834f",
+      "name": "vinera",
+      "email": "vinicius.souza@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "e3c3",
+      "name": "vinicius",
+      "email": "viniteste@gmail.com",
+      "password": "hotdog"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Strogonoff de Frango",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "500g de peito de frango em cubos",
+        "1 cebola picada",
+        "2 colheres de ketchup",
+        "1 colher de mostarda",
+        "1 caixinha de creme de leite",
+        "Batata palha para acompanhar"
+      ],
+      "steps": [
+        "Refogue a cebola e o frango até dourar.",
+        "Adicione o ketchup e a mostarda.",
+        "Abaixe o fogo e misture o creme de leite.",
+        "Não deixe ferver para não talhar.",
+        "Sirva com arroz branco e batata palha."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Pudim de Leite Condensado",
+      "image": "https://images.unsplash.com/photo-1517254342828-42b766f446d6?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "1 lata de leite condensado",
+        "1 lata de leite (medida da lata)",
+        "3 ovos inteiros",
+        "1 xícara de açúcar (para a calda)"
+      ],
+      "steps": [
+        "Derreta o açúcar na forma para fazer a calda.",
+        "Bata o leite condensado, o leite e os ovos no liquidificador.",
+        "Despeje na forma caramelizada.",
+        "Asse em banho-maria no forno por 1h30.",
+        "Leve à geladeira antes de desenformar."
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Hambúrguer Artesanal",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "500g de carne moída (fraldinha)",
+        "Sal e pimenta do reino",
+        "Queijo cheddar",
+        "Bacon crocante",
+        "Pão brioche",
+        "Maionese verde"
+      ],
+      "steps": [
+        "Modele a carne em discos de 150g.",
+        "Tempere com sal e pimenta na hora de grelhar.",
+        "Frite em fogo alto por 4 min de cada lado.",
+        "Derreta o queijo por cima da carne.",
+        "Monte o sanduíche com bacon e maionese."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Guacamole com Nachos",
+      "image": "https://images.unsplash.com/photo-1585503913867-f3382c6d19df?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "2 abacates maduros",
+        "1 tomate picado",
+        "1 cebola roxa picada",
+        "Suco de 1 limão",
+        "Coentro a gosto",
+        "Pacote de nachos (tortillas)"
+      ],
+      "steps": [
+        "Amasse os abacates com um garfo.",
+        "Misture o tomate, a cebola e o coentro.",
+        "Tempere com limão e sal.",
+        "Sirva imediatamente com os nachos."
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Risoto de Cogumelos",
+      "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "1 xícara de arroz arbóreo",
+        "200g de cogumelos frescos",
+        "1/2 xícara de vinho branco",
+        "1 litro de caldo de legumes",
+        "Manteiga e queijo parmesão"
+      ],
+      "steps": [
+        "Refogue os cogumelos e reserve.",
+        "Refogue o arroz e adicione o vinho até evaporar.",
+        "Vá adicionando o caldo aos poucos, mexendo sempre.",
+        "Quando estiver al dente, desligue e misture manteiga e queijo.",
+        "Sirva com os cogumelos por cima."
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Brownie de Chocolate",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "200g de chocolate meio amargo",
+        "100g de manteiga",
+        "3 ovos",
+        "1 e 1/2 xícara de açúcar",
+        "1 xícara de farinha de trigo"
+      ],
+      "steps": [
+        "Derreta o chocolate com a manteiga.",
+        "Bata os ovos com o açúcar.",
+        "Misture o chocolate derretido e a farinha.",
+        "Asse em forma untada por 25-30 minutos.",
+        "Deve ficar úmido por dentro e casquinha por fora."
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Salada Caprese",
+      "image": "https://images.unsplash.com/photo-1529312266912-b33cf6227e24?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Tomates maduros",
+        "Muçarela de búfala",
+        "Folhas de manjericão fresco",
+        "Azeite extra virgem",
+        "Sal e pimenta"
+      ],
+      "steps": [
+        "Corte os tomates e a muçarela em rodelas.",
+        "Intercale uma fatia de tomate e uma de queijo.",
+        "Decore com manjericão.",
+        "Regue com bastante azeite e tempere."
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Escondidinho de Carne Seca",
+      "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "1kg de mandioca cozida",
+        "500g de carne seca dessalgada e desfiada",
+        "2 cebolas",
+        "Requeijão cremoso",
+        "Queijo coalho ralado"
+      ],
+      "steps": [
+        "Faça um purê com a mandioca.",
+        "Refogue a carne seca com a cebola.",
+        "Monte em um refratário: carne, requeijão e purê.",
+        "Cubra com queijo coalho e gratine no forno."
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Yakisoba Clássico",
+      "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "300g de macarrão para yakisoba",
+        "300g de carne em tiras",
+        "Brócolis, cenoura e acelga",
+        "Molho shoyu",
+        "Óleo de gergelim"
+      ],
+      "steps": [
+        "Cozinhe o macarrão e reserve.",
+        "Frite a carne e reserve.",
+        "Na mesma panela, refogue os legumes.",
+        "Junte a carne, o macarrão e o molho shoyu.",
+        "Misture bem e sirva quente."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Pão de Queijo Mineiro",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "500g de polvilho azedo",
+        "1 xícara de leite",
+        "1/2 xícara de óleo",
+        "2 ovos",
+        "300g de queijo meia cura ralado"
+      ],
+      "steps": [
+        "Ferva o leite com o óleo e escalde o polvilho.",
+        "Espere esfriar um pouco e adicione os ovos.",
+        "Misture o queijo e sove a massa.",
+        "Faça bolinhas e asse em forno médio até dourar."
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Moqueca de Peixe",
+      "image": "https://images.unsplash.com/photo-1596238839719-973f423c42a8?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "700g de peixe em postas (robalo ou cação)",
+        "Leite de coco",
+        "Azeite de dendê",
+        "Pimentões coloridos",
+        "Tomate e cebola em rodelas"
+      ],
+      "steps": [
+        "Monte camadas de vegetais e peixe na panela de barro.",
+        "Regue com leite de coco e dendê.",
+        "Cozinhe em fogo baixo por 20 minutos sem mexer.",
+        "Finalize com coentro fresco."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Tiramisu Italiano",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Biscoito champagne",
+        "Queijo Mascarpone (ou Cream Cheese)",
+        "Café forte frio",
+        "Cacau em pó",
+        "Ovos e açúcar"
+      ],
+      "steps": [
+        "Faça um creme com o queijo, gemas e açúcar.",
+        "Molhe os biscoitos no café.",
+        "Monte camadas de biscoito e creme.",
+        "Polvilhe cacau em pó por cima.",
+        "Gele por 4 horas antes de servir."
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Tacos Mexicanos",
+      "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Tortillas de milho",
+        "Carne moída temperada com cominho",
+        "Alface picada",
+        "Queijo ralado",
+        "Pico de gallo (vinagrete)"
+      ],
+      "steps": [
+        "Refogue a carne com temperos mexicanos.",
+        "Aqueça as tortillas na frigideira.",
+        "Monte os tacos com carne, alface e queijo.",
+        "Sirva com pimenta e limão."
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Sopa Creme de Abóbora",
+      "image": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Meia abóbora cabotiá descascada",
+        "1 cebola",
+        "Caldo de legumes",
+        "Gengibre ralado",
+        "Creme de leite (opcional)"
+      ],
+      "steps": [
+        "Refogue a cebola e a abóbora.",
+        "Cubra com caldo e cozinhe até amolecer.",
+        "Bata no liquidificador com gengibre.",
+        "Volte ao fogo e acerte o sal."
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Picanha no Forno",
+      "image": "https://images.unsplash.com/photo-1558030006-4506719b7342?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "1 peça de Picanha (1kg)",
+        "Sal grosso",
+        "Manteiga",
+        "Alho amassado"
+      ],
+      "steps": [
+        "Faça cortes na gordura da picanha.",
+        "Esfregue sal grosso em toda a carne.",
+        "Asse com a gordura para cima por 40 min.",
+        "Pincele manteiga com alho e deixe dourar."
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Ceviche Peruano",
+      "image": "https://images.unsplash.com/photo-1535400255456-984241443b29?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Filé de Tilápia fresco",
+        "Suco de 5 limões",
+        "Cebola roxa em fatias finas",
+        "Pimenta dedo-de-moça",
+        "Coentro"
+      ],
+      "steps": [
+        "Corte o peixe em cubos pequenos.",
+        "Misture com o suco de limão e sal (o ácido cozinha o peixe).",
+        "Adicione a cebola, pimenta e coentro.",
+        "Sirva gelado com batata doce cozida."
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Dadinho de Tapioca",
+      "image": "https://images.unsplash.com/photo-1610337878189-6d887f284705?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "250g de tapioca granulada",
+        "250g de queijo coalho ralado",
+        "500ml de leite quente",
+        "Sal e pimenta branca"
+      ],
+      "steps": [
+        "Misture a tapioca e o queijo.",
+        "Adicione o leite quente e mexa até virar uma pasta.",
+        "Espalhe em uma forma e leve à geladeira por 3 horas.",
+        "Corte em cubos e frite em imersão."
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Cheesecake de Morango",
+      "image": "https://images.unsplash.com/photo-1524351199678-941a58a3dfcd?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Biscoito maisena triturado (base)",
+        "Cream Cheese",
+        "Açúcar",
+        "Ovos",
+        "Geleia de morango"
+      ],
+      "steps": [
+        "Forre a forma com a farofa de biscoito.",
+        "Bata o cream cheese, açúcar e ovos.",
+        "Asse em forno baixo por 50 minutos.",
+        "Gele e cubra com a geleia antes de servir."
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Lasanha à Bolonhesa",
+      "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Massa de lasanha",
+        "Molho bolonhesa (carne)",
+        "Molho branco (bechamel)",
+        "Queijo e presunto"
+      ],
+      "steps": [
+        "Alterne camadas de massa, molho bolonhesa, presunto, queijo e molho branco.",
+        "Repita até encher a travessa.",
+        "Finalize com queijo parmesão.",
+        "Asse até gratinar."
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Suco Verde Detox",
+      "image": "https://images.unsplash.com/photo-1623594467862-d6c7d33867d9?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "1 folha de couve",
+        "1 maçã",
+        "Suco de 1 limão",
+        "Gengibre a gosto",
+        "Água de coco"
+      ],
+      "steps": [
+        "Lave bem todos os ingredientes.",
+        "Bata tudo no liquidificador.",
+        "Coe se preferir (mas com fibra é melhor).",
+        "Sirva com gelo."
+      ]
+    },
+    {
+      "id": "cb4f",
+      "title": "Miojo",
+      "image": "https://f.i.uol.com.br/fotografia/2021/08/11/162871253661142e587ca24_1628712536_3x2_rt.jpg",
+      "ingredients": [
+        "1 - pacote miojo Lamen",
+        "1- sache de tempero"
+      ],
+      "steps": [
+        "Ferva em recipiente , 250 ml de agua, no microondas ou fogo.",
+        "Assim que levantar fervura, adicione o macarrao instantaneo e deixe por aproximadamente 3 min.",
+        "Retire do fogo e despeje o sache de tempero. "
+      ]
+    },
+    {
+      "id": "fca6",
+      "title": "Fricassee de frango",
+      "image": "data:image/jpeg;base64,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",
+      "ingredients": [
+        "1 lata de milho verde (escorrida)",
+        "1 lata de creme de leite (ou caixinha)",
+        "1 copo de requeijão cremoso (200g)",
+        "1/2 xícara de leite (opcional, se quiser o creme mais líquido)",
+        "Para o Refogado de Frango:",
+        "500g de peito de frango cozido e desfiado",
+        "1 colher (sopa) de azeite ou manteiga",
+        "1 cebola média picada",
+        "2 dentes de alho picados",
+        "Sal e pimenta-do-reino a gosto",
+        "Cheiro-verde (salsinha e cebolinha) a gosto",
+        "1/2 lata de milho (opcional, para ter grãos inteiros no meio)"
+      ],
+      "steps": [
+        "Creme: Bata o milho, creme de leite e requeijão no liquidificador até obter um creme homogêneo.",
+        "Refogado: Refogue a cebola e o alho, adicione o frango desfiado e tempere a gosto.",
+        "Combinação: Misture o creme batido ao frango refogado na panela e cozinhe por alguns minutos para engrossar.",
+        "Gratinar: Transfira para uma travessa, cubra com queijo mussarela e leve ao forno pré-aquecido a 180°C por cerca de 15 a 20 minutos, até o queijo derreter e gratinar.",
+        "Finalização: Retire do forno e cubra com batata palha na hora de servir."
+      ]
+    },
+    {
+      "id": "2116",
+      "title": "X-bacon",
+      "image": "data:image/jpeg;base64,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",
+      "ingredients": [
+        "Hamburguer",
+        "Bacon",
+        "Pao",
+        "alface"
+      ],
+      "steps": [
+        "Fritar",
+        "Molho",
+        "Batata frita"
+      ]
+    },
+    {
+      "id": "dad3",
+      "title": "x-salada",
+      "image": "data:image/jpeg;base64,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",
+      "ingredients": [
+        "Pao",
+        "Hamburguer",
+        "Salada",
+        "Tomate",
+        "Molho",
+        "bacon"
+      ],
+      "steps": [
+        "Frita",
+        "Pao na frigideira ",
+        "Salada lavada",
+        "Tomate cortado",
+        "Molho mostarda"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+// src/screens/LoginScreen.tsx
 
 import React, { useState } from 'react';
 import {
@@ -9,6 +10,7 @@ import {
   SafeAreaView,
   TextInput,
   TouchableOpacity,
+  Alert, // <--- Importante para mostrar erro se a senha estiver errada
 } from 'react-native';
 
 const backgroundImage = {
@@ -16,13 +18,40 @@ const backgroundImage = {
 };
 
 export default function LoginScreen({ navigation }: { navigation: any }) {
-  const [usuario, setUsuario] = useState('');
-  const [senha, setSenha] = useState('');
+  // Vamos assumir que o "usuario" aqui é o E-mail que ele cadastrou
+  const [email, setEmail] = useState(''); 
+  const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
-    // Por enquanto, não faz nada
-    navigation.navigate('Home'); 
- };
+  const handleLogin = async () => {
+    // 1. Validação básica
+    if (!email || !password) {
+      Alert.alert('Atenção', 'Preencha email e senha!');
+      return;
+    }
+
+    try {
+      // 2. Pergunta pro json-server: "Tem alguém com esse email E essa senha?"
+      // O sinal de interrogação (?) começa o filtro
+      // O & serve para somar filtros (email E password)
+      const response = await fetch(`http://10.0.2.2:3000/users?email=${email}&password=${password}`);
+      
+      const data = await response.json();
+
+      // 3. Verifica a resposta
+      if (data.length > 0) {
+        // ACHOU! O array veio com dados. Pode entrar.
+        // (Opcional: Você poderia salvar os dados do usuário aqui pra usar no Perfil depois)
+        navigation.navigate('MainApp');
+      } else {
+        // NÃO ACHOU. O array veio vazio [].
+        Alert.alert('Erro', 'E-mail ou senha incorretos.');
+      }
+
+    } catch (error) {
+      console.error(error);
+      Alert.alert('Erro', 'Falha ao conectar com o servidor.');
+    }
+  };
 
   return (
     <ImageBackground
@@ -33,25 +62,40 @@ export default function LoginScreen({ navigation }: { navigation: any }) {
       <SafeAreaView style={styles.container}>
         <View style={styles.card}>
           <Text style={styles.cardTitle}>Login</Text>
+          
           <TextInput
             style={styles.input}
-            placeholder="Usuário"
+            placeholder="E-mail" // Mudei o texto pra ficar claro que é o email
             placeholderTextColor="#999"
-            value={usuario}
-            onChangeText={setUsuario}
+            value={email}
+            onChangeText={setEmail}
             autoCapitalize="none"
+            keyboardType="email-address"
           />
+          
           <TextInput
             style={styles.input}
             placeholder="Senha"
             placeholderTextColor="#999"
-            value={senha}
-            onChangeText={setSenha}
+            value={password}
+            onChangeText={setPassword}
             secureTextEntry
           />
+          
           <TouchableOpacity style={styles.button} onPress={handleLogin}>
             <Text style={styles.buttonText}>Entrar</Text>
           </TouchableOpacity>
+
+          {/* Link para Cadastro */}
+          <TouchableOpacity 
+            style={{marginTop: 20}} 
+            onPress={() => navigation.navigate('Register')}
+          >
+            <Text style={{color: '#555'}}>
+              Não tem conta? <Text style={{fontWeight: 'bold', color: '#E67E22'}}>Cadastre-se</Text>
+            </Text>
+          </TouchableOpacity>
+
         </View>
       </SafeAreaView>
     </ImageBackground>
